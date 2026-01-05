@@ -1,0 +1,195 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+
+}
+section.confetti{
+    width: 100%;
+}
+
+header>h1 {
+    font-size: 3em;
+    letter-spacing: 2px;
+    margin: 10px 0 0 0;
+}
+
+header>p {
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
+
+section.game-status {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section.game-status.statusWon {
+    font-weight: bolder;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    width: 40rem;
+    border-radius: 10px;
+    background-color: rgb(80, 200, 120);
+}
+
+section.game-status.statusLost {
+    font-weight: bold;
+    color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    width: 40rem;
+    border-radius: 10px;
+    background-color: rgb(210, 20, 20);
+}
+
+section.game-status.statusLost>h4 {
+    padding-top: 20px;
+    margin: 0;
+}
+
+section.game-status.statusLost>p {
+    margin: 0;
+    padding-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+p.Farewell-message {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding: 20px;
+    font-size: 1.4rem;
+    background-color: blueviolet;
+    font-weight: bolder;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    width: 40rem;
+    border-radius: 10px;
+}
+p.Success-message{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding: 20px;
+    font-size: 1.4rem;
+    background-color: rgb(47, 151, 255);
+    font-weight: bolder;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    width: 40rem;
+    border-radius: 10px;
+} 
+
+section.languages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4px;
+}
+
+div.chip.lost::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 1.6rem;
+    content: "☠️";
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+section.letters {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+section.letters>span {
+    text-align: center;
+    margin: 0px 10px 0px 10px;
+    padding: 7px;
+    background-color: rgb(34, 32, 32);
+    border: solid 2px white;
+    height: 30px;
+    width: 25px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    outline: 3px solid whitesmoke;
+    color: white;
+    outline-offset: 3px;
+}
+section.letters>span.missed-letter{
+    color: crimson;
+}
+
+section.keyboard {
+    margin: 0 120px 0px 120px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    padding: 30px 50px 40px 50px;
+}
+
+section.keyboard>button {
+    text-align: center;
+    background-color: orange;
+    color: black;
+    font-size: 1rem;
+    font-weight: 800;
+    padding: 10px;
+    border: 4px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+section.keyboard>button:active {
+    transition: transform 0.1s ease-in-out;
+    transform: scale(0.9);
+    /* shrink on click */
+}
+section.keyboard>button:disabled{
+    font-weight: 800;
+    padding: 10px;
+    border: 4px solid white;
+    border-radius: 10px;
+    color: white;
+   background-color: rgb(34, 32, 32);
+}
+
+section.keyboard>button.correct {
+    background-color: rgb(80, 200, 120);
+}
+
+section.keyboard>button.wrong {
+    background-color: red;
+}
+
+button.new-game {
+    margin: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+    outline-offset: 4px;
+    color: whitesmoke;
+    outline: 3px solid white;
+    font-size: 1.1rem;
+    background-color: rgb(28, 158, 239);
+}
