@@ -12,15 +12,14 @@ Currently, two official plugins are available:
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
 <h1>A small word game developed in react</h1>.
-<img width="1920" height="1080" alt="Screenshot (1009)" src="https://github.com/user-attachments/assets/97a8d17e-04f1-4cdb-9f7b-2dd80b2a812c" />
-<img width="1920" height="1080" alt="Screenshot (1010)" src="https://github.com/user-attachments/assets/b450839d-15a2-4f39-868b-a576c08f4820" />
-<img width="1920" height="1080" alt="Screenshot (1011)" src="https://github.com/user-attachments/assets/8ec37625-0ef8-4bf1-878d-fcdcd01f815f" />
-<img width="1920" height="1080" alt="Screenshot (1012)" src="https://github.com/user-attachments/assets/827117a6-ae69-4dda-954c-fcb311c654b3" />
-<img width="1920" height="1080" alt="Screenshot (1013)" src="https://github.com/user-attachments/assets/b72dd412-9f03-4b4b-a5c1-ddd990aae998" />
-<img width="1920" height="1080" alt="Screenshot (1014)" src="https://github.com/user-attachments/assets/325ed46e-bb73-4853-9865-c511b42bb5fe" /><img width="1920" height="1080" alt="Screenshot (1015)" src="https://github.com/user-attachments/assets/28cf76b2-393c-44eb-9a18-cc20b2fd55c4" />
-<img width="1920" height="1080" alt="Screenshot (1016)" src="https://github.com/user-attachments/assets/2c5d8e84-91fc-4177-b87c-085fc9ea120f" />
 
-<img width="1920" height="1080" alt="Screenshot (1017)" src="https://github.com/user-attachments/assets/0d7ebd16-5af7-43fe-9334-dad55b820879" />
-
-<img width="1920" height="1080" alt="Screenshot (1018)" src="https://github.com/user-attachments/assets/2c2ececc-b4a9-438e-af48-5b540d22a88a" />
-
+<img width="1920" height="1022" alt="Screenshot (1009)" src="https://github.com/user-attachments/assets/81d4e572-4f5d-4989-a90d-632ad16802b2" />
+<img width="1920" height="1025" alt="Screenshot (1010)" src="https://github.com/user-attachments/assets/ffeac29a-1a7e-450d-af5f-7903a3ea3e9c" />
+<img width="1920" height="1022" alt="Screenshot (1011)" src="https://github.com/user-attachments/assets/7ac22c36-93cf-48da-bbe2-32d218778ce1" />
+<img width="1920" height="1022" alt="Screenshot (1012)" src="https://github.com/user-attachments/assets/b5c519a9-d130-4c9d-b400-28ddb7e47dfe" />
+<img width="1920" height="1031" alt="Screenshot (1013)" src="https://github.com/user-attachments/assets/f152f9be-4ae6-4862-b761-e5932ff85d1e" />
+<img width="1920" height="1022" alt="Screenshot (1014)" src="https://github.com/user-attachments/assets/087eb9d2-af92-4076-ae57-da0d91233ab2" />
+<img width="1920" height="1022" alt="Screenshot (1015)" src="https://github.com/user-attachments/assets/dfeadfdb-9898-408d-b0bb-e332f7bc1622" />
+<img width="1920" height="1022" alt="Screenshot (1016)" src="https://github.com/user-attachments/assets/29867c4f-d5df-4966-b9fe-164d440c3290" />
+<img width="1920" height="1027" alt="Screenshot (1017)" src="https://github.com/user-attachments/assets/333024d8-b4cf-482b-ae3e-702986ad9419" />
+<img width="1920" height="1016" alt="Screenshot (1018)" src="https://github.com/user-attachments/assets/d4125184-77b0-4057-8c2a-020f29f81381" />
